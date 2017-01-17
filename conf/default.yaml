@@ -4,5 +4,5 @@ plugins:
     tags:
       - 'docker-hub'
     hideTags: false
-    slackHook: '{{ENV.SLACK_HOOK}}'
+    slackHook: '{{ENV.SLACK_WEBHOOK}}'
     channel: '{{ENV.SLACK_CHANNEL}}'

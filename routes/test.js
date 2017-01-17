@@ -37,10 +37,7 @@ exports.test = {
       method: 'POST',
       payload: data
     }, (res) => {
-      console.log(res.statusCode)
-      console.log(res.result)
-      reply('ok')
-      // reply(`${res.statusCode}: ${res.statusMessage} ${res.result}`);
+      reply(`${res.statusCode}: ${res.statusMessage} ${res.result}`);
     });
   }
 };
