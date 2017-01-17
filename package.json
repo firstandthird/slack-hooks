@@ -1,0 +1,31 @@
+{
+  "name": "slack-hooks",
+  "version": "0.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tap test/test.slack-hooks.js",
+    "start": "rapptor"
+  },
+  "keywords": [
+    "json",
+    "template",
+    "object"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/slack-hooks.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rapptor": "1.1.0",
+    "hapi-slack": "0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-firstandthird": "^3.0.2",
+    "eslint-plugin-import": "^2.1.0"
+  }
+}
