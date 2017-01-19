@@ -1,0 +1,8 @@
+plugins:
+  hapi-slack:
+    name: 'Slack Hook Reporter'
+    tags:
+      - 'docker-hub'
+    hideTags: false
+    slackHook: '{{ENV.SLACK_WEBHOOK}}'
+    channel: '{{ENV.SLACK_CHANNEL}}'
